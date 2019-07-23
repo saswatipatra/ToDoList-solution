@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
+        "projectName": "ToDoList.Tests",
+        "projectPath": "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
+        "packagesPath": "C:\\Users\\p403s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\p403s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+                "projectPath": "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList\\ToDoList.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "projectName": "ToDoList",
+        "projectPath": "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "packagesPath": "C:\\Users\\p403s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p403s\\Desktop\\ToDoList.Solution\\ToDoList\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\p403s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
